@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time tracker</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="body">
+    <div class="heading">Time Tracker</div>
+    <hr>
+    <div class="content">
+        <div style="flex: 0 0 70%;;">
+    <div  class="task" >
+        <div  class="table">CATEGORY</div>
+        <div class="table">SUB CATEGORY</div>
+        <div  class="table">DURATION</div>
+        <div  class="table">TASK</div>
+    </div>
+    <div id=task class="task" >
+        <div id="category" class="table"></div>
+        <div id="sub" class="table"></div>
+        <div id="duration" class="table"></div>
+        <div id="work" class="table"></div>
+    </div>
+</div>
+<div class="add">
+    <div class="task">
+<button class="table">Add a Task</button>
+<button class="table">Schedule Task</button>
+    </div>
+    <h1 style="text-align: center;">Start a new task</h1>
+
+    <button  class="drop">Select Category</button>
+    <div class="dropdown_content">
+        <button>Work</button>
+        <button>Personal Space</button>
+    </div>
+
+
+    <input class="table2" placeholder="Sub-Category"></input>
+    <input class="table2" placeholder="Duration"></input>
+    <input class="table2" placeholder="Enter Task"></input>
+
+    <div class="task">
+        <button class="table">Start</button>
+        <button class="table">Reset</button>
+    </div>
+
+</div>
+
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
